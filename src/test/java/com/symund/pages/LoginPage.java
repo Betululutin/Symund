@@ -8,7 +8,7 @@ import org.openqa.selenium.support.*;
 public class LoginPage {
 
     public LoginPage() { //helps me connect page with my driver
-        PageFactory.initElements(Driver.getDriver(), this);
+        PageFactory.initElements(Driver.getDriver(), this);//this keyword says this page
     }
 
     @FindBy(id = "user")
